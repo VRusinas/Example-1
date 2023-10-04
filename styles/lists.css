@@ -1,0 +1,21 @@
+ul {
+list-style: none;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+li:last-of-type::after{
+  content: "";
+}
+li::after{
+  padding-left:15px;
+  content: " \B7 ";
+}
+
+li{
+  font-size: 14px;
+  padding-right: 15px;
+}
+

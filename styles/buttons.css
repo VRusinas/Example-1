@@ -1,0 +1,24 @@
+.topbutton{
+  padding-left: 25px;
+  width: 90px;
+  height: 40px;
+  background:rgba(42, 122, 214, 0.61);
+  color: white;
+}
+.topbutton:hover{
+  background:#448fff;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  margin-left: 10px;
+  background: #007bff;
+  color: white;
+
+}
+.button:hover{
+  background:#448fff;
+}
